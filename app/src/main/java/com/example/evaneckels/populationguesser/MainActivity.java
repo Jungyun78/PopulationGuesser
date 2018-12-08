@@ -162,6 +162,7 @@ public class MainActivity extends AppCompatActivity {
                     button1.setBackgroundColor(Color.GREEN);
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("Correct!");
+                    builder.setMessage("You really know your State populations!");
                     builder.setPositiveButton("Play Again", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
@@ -175,6 +176,7 @@ public class MainActivity extends AppCompatActivity {
                     button1.setBackgroundColor(Color.RED);
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("Wrong!");
+                    builder.setMessage("Better luck next time!");
                     builder.setPositiveButton("Play Again", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
@@ -200,6 +202,7 @@ public class MainActivity extends AppCompatActivity {
                     button2.setBackgroundColor(Color.GREEN);
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("Correct!");
+                    builder.setMessage("You really know your State populations!");
                     builder.setPositiveButton("Play Again", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
@@ -213,6 +216,7 @@ public class MainActivity extends AppCompatActivity {
                     button2.setBackgroundColor(Color.RED);
                     AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("Wrong!");
+                    builder.setMessage("Better luck next time!");
                     builder.setPositiveButton("Play Again", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
