@@ -20,8 +20,8 @@
             android:layout_height="32dp"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginEnd="31dp"
-            android:layout_marginRight="31dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
             android:text="Which state has more people?"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +63,7 @@
             android:layout_marginStart="148dp"
             android:layout_marginLeft="148dp"
             android:text="TextView"
-            android:textColor="@android:color/background_light"
+            android:textColor="@android:color/transparent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textview15" />
 
@@ -74,7 +74,7 @@
             android:layout_marginEnd="28dp"
             android:layout_marginRight="28dp"
             android:text="TextView"
-            android:textColor="@android:color/background_light"
+            android:textColor="@android:color/transparent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textview15" />
 
@@ -86,7 +86,7 @@
             android:layout_marginLeft="148dp"
             android:layout_marginTop="20dp"
             android:text="TextView"
-            android:textColor="@android:color/background_light"
+            android:textColor="@android:color/transparent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textview15" />
 
@@ -98,7 +98,7 @@
             android:layout_marginEnd="28dp"
             android:layout_marginRight="28dp"
             android:text="TextView"
-            android:textColor="@android:color/background_light"
+            android:textColor="@android:color/transparent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textview15" />
 
